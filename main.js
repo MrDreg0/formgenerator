@@ -2,11 +2,11 @@ var formLayout = document.querySelector('.formLayout');
 var requestURL;
 var isFirstVariant = confirm("Показать первый вариант массива?");
 if (isFirstVariant) {
-    requestURL = '/form1.json';
+    requestURL = 'form1.json';
 }
 else {
     alert("Показываю второй вариант массива.");
-    requestURL = '/form2.json';
+    requestURL = 'form2.json';
 }
 var request = new XMLHttpRequest();
 
