@@ -1,0 +1,32 @@
+.formLayout {
+    margin: 0 auto;
+    width: 300px;
+}
+
+.formLayout input,
+.formLayout select,
+.formLayout label,
+.formLayout p {
+    width: 250px;
+    padding: 10px;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.formLayout label,
+.formLayout p {
+    padding: 10px 0 0 5px;
+}
+
+.formLayout input[type="checkbox"],
+.formLayout input[type="radio"] {
+    width: 13px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.formLayout input[type="button"] {
+    margin-top: 20px;
+}
